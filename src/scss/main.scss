@@ -1,0 +1,81 @@
+.section {
+    padding-top: 118px;
+    padding-bottom: 92px;
+
+    &__title {
+        font-style: 32px;
+        text-align: center;
+        color: $color-black;
+        font-weight: 500;
+        margin-bottom: 43px;
+    }
+
+    &__description {
+        color: $color-secondary;
+        text-align: center;
+    }
+
+}
+
+.process {
+    background-color: $color-gray-light;
+    margin-bottom: -42px;
+    padding-top: 108px;
+}
+
+.expirience {
+    padding-top: 100px;
+    padding-bottom: 92px;
+    background-color: $color-primary;
+    color: $color-white;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        font-weight: wrap;
+        gap: $gap-lg;
+    }
+
+    .expirience-item {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 22px;
+        padding-bottom: 0;
+    }
+
+    &__number {
+        font-style: 21px;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+
+    &__text {
+        font-size: 15px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.video {
+    background-color: $color-gray-light;
+    padding-bottom: 100px;
+
+    &__frame {
+    border: 0;
+    height: 600px;
+    width: 100%;
+    display: block;
+    }
+}
